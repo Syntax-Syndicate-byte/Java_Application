@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+class B_Deposit extends Thread {
+   private final BankAccount b;
+   private final long amount = 15000L;
+
+   B_Deposit(BankAccount var1) {
+      this.b = var1;
+   }
+
+   public void run() {
+      this.b.deposit(15000L, true);
+   }
+}
